@@ -1,0 +1,19 @@
+{
+    "name" : "fis-parser-jsmart",
+    "description" : "解析jsmart",
+    "version" : "0.0.1",
+    "author" : "小web<girlblank@gmail.com>",
+    "homepage" : "http://www.xiaoweb.com/",
+    "keywords": [ "fis", "html", "jsmart"],
+    "main" : "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/"
+    },
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "dependencies" : {
+        "jsmart" : "2.13.1"
+    }
+}
