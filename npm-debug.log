@@ -1,0 +1,267 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose publish [ '.' ]
+5 verbose read json /Users/zhanglibin/Github/fis-parser-jsmart.bak/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/zhanglibin/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+14 verbose folder .
+15 info prepublish fis-parser-jsmart@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/zhanglibin/.npm/3a52ce78-.lock
+18 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+19 verbose lock /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz /Users/zhanglibin/.npm/e9b67c66-2344-0-12915314664132893-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+23 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+24 verbose tar unpack /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+25 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+26 verbose lock /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package /Users/zhanglibin/.npm/b8410d89-2344-0-12915314664132893-package.lock
+27 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+28 verbose lock /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz /Users/zhanglibin/.npm/e9b67c66-2344-0-12915314664132893-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry LICENSE.md
+35 verbose read json /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package/package.json
+36 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+37 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+38 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+39 silly lockFile e9b67c66-2344-0-12915314664132893-tmp-tgz /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/tmp.tgz
+40 verbose from cache /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package/package.json
+41 verbose tar pack [ '/Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz',
+41 verbose tar pack   '/var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package' ]
+42 verbose tarball /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+43 verbose folder /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+44 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+45 verbose lock /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package /Users/zhanglibin/.npm/b8410d89-2344-0-12915314664132893-package.lock
+46 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+47 verbose lock /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz /Users/zhanglibin/.npm/97f2fc40--parser-jsmart-0-0-1-package-tgz.lock
+48 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+49 silly lockFile b8410d89-2344-0-12915314664132893-package /var/folders/qn/9qx57v510458n7qxtf3tndvh0000gn/T/npm-6129/1408427932344-0.12915314664132893/package
+50 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+51 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+52 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+53 verbose lock /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package /Users/zhanglibin/.npm/dc1bb52a--fis-parser-jsmart-0-0-1-package.lock
+54 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+55 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+56 verbose tar unpack /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+57 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+58 verbose lock /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package /Users/zhanglibin/.npm/dc1bb52a--fis-parser-jsmart-0-0-1-package.lock
+59 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+60 verbose lock /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz /Users/zhanglibin/.npm/97f2fc40--parser-jsmart-0-0-1-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry index.js
+66 silly gunzTarPerm extractEntry LICENSE.md
+67 verbose read json /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package/package.json
+68 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+69 silly lockFile dc1bb52a--fis-parser-jsmart-0-0-1-package /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package
+70 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+71 silly lockFile 97f2fc40--parser-jsmart-0-0-1-package-tgz /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+72 silly shasum updated bytes 1365
+73 info shasum 536c90b94747a378bdd1ac88ecf91d8d6f99cdaf
+73 info shasum /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz
+74 verbose from cache /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package/package.json
+75 verbose chmod /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz 644
+76 verbose chown /Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz [ 501, 20 ]
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'fis-parser-jsmart',
+78 silly publish   description: '解析jsmart',
+78 silly publish   version: '0.0.1',
+78 silly publish   author: { name: '小web', email: 'girlblank@gmail.com' },
+78 silly publish   homepage: 'http://www.xiaoweb.com/',
+78 silly publish   keywords: [ 'fis', 'html', 'jsmart' ],
+78 silly publish   main: 'index.js',
+78 silly publish   repository:
+78 silly publish    { type: 'git',
+78 silly publish      url: 'https://github.com/littleweb/fis-parser-jsmart.git' },
+78 silly publish   engines: { node: '>= 0.8.0' },
+78 silly publish   dependencies: { jsmart: '2.13.1' },
+78 silly publish   readme: '# fis-optimizer-html-minifier\n\nA optimizer plugin for fis to compress html by using html-minifier.',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   _id: 'fis-parser-jsmart@0.0.1',
+78 silly publish   dist: { shasum: '536c90b94747a378bdd1ac88ecf91d8d6f99cdaf' },
+78 silly publish   _from: '.' }
+79 verbose url raw fis-parser-jsmart
+80 verbose url resolving [ 'http://registry.npmjs.org/', './fis-parser-jsmart' ]
+81 verbose url resolved http://registry.npmjs.org/fis-parser-jsmart
+82 info trying registry request attempt 1 at 13:59:03
+83 http PUT http://registry.npmjs.org/fis-parser-jsmart
+84 http 201 http://registry.npmjs.org/fis-parser-jsmart
+85 verbose url raw fis-parser-jsmart
+86 verbose url resolving [ 'http://registry.npmjs.org/', './fis-parser-jsmart' ]
+87 verbose url resolved http://registry.npmjs.org/fis-parser-jsmart
+88 info trying registry request attempt 1 at 13:59:04
+89 http GET http://registry.npmjs.org/fis-parser-jsmart
+90 http 200 http://registry.npmjs.org/fis-parser-jsmart
+91 verbose uploading [ 'fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933',
+91 verbose uploading   '/Users/zhanglibin/.npm/fis-parser-jsmart/0.0.1/package.tgz' ]
+92 verbose url raw fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+93 verbose url resolving [ 'http://registry.npmjs.org/',
+93 verbose url resolving   './fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933' ]
+94 verbose url resolved http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+95 info trying registry request attempt 1 at 13:59:04
+96 http PUT http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+97 http 403 http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+98 info trying registry request attempt 1 at 13:59:11
+99 http PUT http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+100 http 503 http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+101 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+101 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+101 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+101 verbose bad json <html>
+101 verbose bad json   <head>
+101 verbose bad json     <title>503 client read error</title>
+101 verbose bad json   </head>
+101 verbose bad json   <body>
+101 verbose bad json     <h1>Error 503 client read error</h1>
+101 verbose bad json     <p>client read error</p>
+101 verbose bad json     <h3>Guru Mediation:</h3>
+101 verbose bad json     <p>Details: cache-ty67-TYO 1408427962 1788366231</p>
+101 verbose bad json     <hr>
+101 verbose bad json     <p>Varnish cache server</p>
+101 verbose bad json   </body>
+101 verbose bad json </html>
+102 error registry error parsing json
+103 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+103 info retry
+103 info retry <?xml version="1.0" encoding="utf-8"?>
+103 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+103 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+103 info retry <html>
+103 info retry   <head>
+103 info retry     <title>503 client read error</title>
+103 info retry   </head>
+103 info retry   <body>
+103 info retry     <h1>Error 503 client read error</h1>
+103 info retry     <p>client read error</p>
+103 info retry     <h3>Guru Mediation:</h3>
+103 info retry     <p>Details: cache-ty67-TYO 1408427962 1788366231</p>
+103 info retry     <hr>
+103 info retry     <p>Varnish cache server</p>
+103 info retry   </body>
+103 info retry </html>
+104 info trying registry request attempt 2 at 13:59:32
+105 http PUT http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+106 http 503 http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+107 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+107 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+107 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+107 verbose bad json <html>
+107 verbose bad json   <head>
+107 verbose bad json     <title>503 client read error</title>
+107 verbose bad json   </head>
+107 verbose bad json   <body>
+107 verbose bad json     <h1>Error 503 client read error</h1>
+107 verbose bad json     <p>client read error</p>
+107 verbose bad json     <h3>Guru Mediation:</h3>
+107 verbose bad json     <p>Details: cache-ty66-TYO 1408427984 314614154</p>
+107 verbose bad json     <hr>
+107 verbose bad json     <p>Varnish cache server</p>
+107 verbose bad json   </body>
+107 verbose bad json </html>
+108 error registry error parsing json
+109 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+109 info retry
+109 info retry <?xml version="1.0" encoding="utf-8"?>
+109 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+109 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+109 info retry <html>
+109 info retry   <head>
+109 info retry     <title>503 client read error</title>
+109 info retry   </head>
+109 info retry   <body>
+109 info retry     <h1>Error 503 client read error</h1>
+109 info retry     <p>client read error</p>
+109 info retry     <h3>Guru Mediation:</h3>
+109 info retry     <p>Details: cache-ty66-TYO 1408427984 314614154</p>
+109 info retry     <hr>
+109 info retry     <p>Varnish cache server</p>
+109 info retry   </body>
+109 info retry </html>
+110 info trying registry request attempt 3 at 14:00:43
+111 http PUT http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+112 http 503 http://registry.npmjs.org/fis-parser-jsmart/-/fis-parser-jsmart-0.0.1.tgz/-rev/10-7a38a97934dbbdeee6bab96ef910a933
+113 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+113 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+113 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+113 verbose bad json <html>
+113 verbose bad json   <head>
+113 verbose bad json     <title>503 client read error</title>
+113 verbose bad json   </head>
+113 verbose bad json   <body>
+113 verbose bad json     <h1>Error 503 client read error</h1>
+113 verbose bad json     <p>client read error</p>
+113 verbose bad json     <h3>Guru Mediation:</h3>
+113 verbose bad json     <p>Details: cache-ty68-TYO 1408428055 2144274182</p>
+113 verbose bad json     <hr>
+113 verbose bad json     <p>Varnish cache server</p>
+113 verbose bad json   </body>
+113 verbose bad json </html>
+114 error registry error parsing json
+115 error publish Error uploading package
+116 error SyntaxError: Unexpected token <
+116 error
+116 error <?xml version="1.0" encoding="utf-8"?>
+116 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+116 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+116 error <html>
+116 error   <head>
+116 error     <title>503 client read error</title>
+116 error   </head>
+116 error   <body>
+116 error     <h1>Error 503 client read error</h1>
+116 error     <p>client read error</p>
+116 error     <h3>Guru Mediation:</h3>
+116 error     <p>Details: cache-ty68-TYO 1408428055 2144274182</p>
+116 error     <hr>
+116 error     <p>Varnish cache server</p>
+116 error   </body>
+116 error </html>
+116 error
+116 error     at Object.parse (native)
+116 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:235:23)
+116 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+116 error     at Request.EventEmitter.emit (events.js:98:17)
+116 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:648:16)
+116 error     at Request.EventEmitter.emit (events.js:117:20)
+116 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:610:14)
+116 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+116 error     at _stream_readable.js:870:14
+116 error     at process._tickCallback (node.js:415:13)
+117 error If you need help, you may report this log at:
+117 error     <http://github.com/isaacs/npm/issues>
+117 error or email it to:
+117 error     <npm-@googlegroups.com>
+118 error System Darwin 13.3.0
+119 error command "node" "/usr/local/bin/npm" "publish"
+120 error cwd /Users/zhanglibin/Github/fis-parser-jsmart.bak
+121 error node -v v0.10.0
+122 error npm -v 1.2.14
+123 error type unexpected_token
+124 verbose exit [ 1, true ]
